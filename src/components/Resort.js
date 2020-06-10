@@ -15,7 +15,7 @@ const Resort = props => {
         <Card>
           <CardMedia
             style={{ height: 0, paddingTop: "56.25%" }}
-            image={require('../images/'+props.resort.thumbnail)}
+            image={require('../../../Booking-BE/images/'+props.resort.thumbnail)}
             title={props.resort.name}
           />
           <CardContent>
